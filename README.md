@@ -103,3 +103,10 @@ exports['qb-core']:KeyPressed()
 
 
 --STILL HAVE SOME BUGGS AS BOSS PED (where you get vehjob dosent spawn at server start only after re-ensure the resource, and its missing some TextUi to call when you should mine, for now you just should search the walls of the mine with the 3th eye!--
+
+
+## Discord
+- [Join Discord](https://discord.gg/zRCdhENsHG)
+
+## Support The Script
+- [Ko-fi Link](https://ko-fi.com/trclassic)
