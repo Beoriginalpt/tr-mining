@@ -80,6 +80,28 @@ exports['qb-core']:KeyPressed()
 - [QBCore_Drawtext](https://github.com/trclassic92/QBCore_Drawtext) **Only add if you dont have the lastest core update**
 
 
+
+--ADD TO qb-core/shared/jobs.lua
+
+	    ['miner'] = {
+			label = 'mineiro',
+			defaultDuty = true,
+			offDutyPay = false,
+			grades = {
+		    ['0'] = {
+			name = 'Mineiro',
+			payment = 50
+		    },
+		},
+		},
+
+--ADD TO qb-cityhall/server/main.lua under local availableJobs = {
+	
+	
+	["miner"] = "Mineiro",
+
+
+
 ## Preview Pictures
 - [Youtube Video](https://youtu.be/9VXjTrUdjfc)
 ![Preview Screenshot](https://i.imgur.com/jIJ9SOU.png)
